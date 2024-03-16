@@ -18,6 +18,10 @@ namespace Bookstore.Controllers
             List<Category> obj = _db.Categories.ToList();
             return View(obj);
         }
-    
+        public IActionResult Index2()
+        {
+            List<Category> obj = _db.Categories.ToList();
+            return View(obj);
+        }
     }
 }
